@@ -1,0 +1,33 @@
+{
+  "name": "generator-lmn-theme",
+  "version": "0.0.0",
+  "description": "Yeoman generator from Lost My Name themes and projects",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "Lostmyname/generator-lmn-theme",
+  "author": {
+    "name": "Callum Macrae",
+    "email": "callum@macr.ae",
+    "url": "https://github.com/callumacrae"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "bluebird": "^2.8.2",
+    "chalk": "^0.5.0",
+    "child-process-promise": "^1.0.1",
+    "github": "^0.2.3",
+    "yeoman-generator": "^0.18.0",
+    "yosay": "^0.3.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
