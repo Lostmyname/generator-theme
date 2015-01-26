@@ -1,6 +1,6 @@
 {
   "name": "generator-lmn-theme",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Yeoman generator from Lost My Name themes and projects",
   "license": "MIT",
   "main": "app/index.js",
