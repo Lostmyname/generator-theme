@@ -104,16 +104,19 @@ module.exports = yeoman.generators.Base.extend({
 
       createGit({
         cwd: this.destinationRoot(),
-        github: true,
+        github: this.promptProps.github,
         org: 'Lostmyname',
         orgTeam: 316933,
-        repo: this.promptProps.type + this.promptProps.name,
+        repo: this.promptProps.type + '.' + this.promptProps.name,
         repoDescription: this.promptProps.description,
         ghToken: this.promptProps.ghToken
-      }, done);
+	    })
+        .then(function () {
+          done();
+        });
     },
     npm: function () {
-      this.log('\nRunning npm install');
+      this.log(chalk.bold('\n\nRunning npm install\n'));
       this.npmInstall();
     }
   },

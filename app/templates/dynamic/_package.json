@@ -1,9 +1,9 @@
 {
-  "name": "lmn.{{ name }}",
+  "name": "lmn.<%= name %>",
   "version": "0.0.0",
-  "description": "{{ description }}",
-  "author": "{{ author }}",
-  "main": "js/{{ name }}.js",
+  "description": "<%= description %>",
+  "author": "<%= author %>",
+  "main": "js/<%= name %>.js",
   "devDependencies": {
     "jscs": "^1.8.1"
   },
