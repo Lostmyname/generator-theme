@@ -5,7 +5,7 @@ A [Yeoman](http://yeoman.io/) generator for themes and projects at Lost My Name.
 To use:
 
 ```
-npm install -g yo generator-lmn-theme
+npm install -g yo @lostmyname/generator-lmn-theme
 yo lmn-theme
 ```
 

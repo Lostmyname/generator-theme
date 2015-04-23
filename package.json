@@ -1,5 +1,5 @@
 {
-  "name": "generator-lmn-theme",
+  "name": "@lostmyname/generator-lmn-theme",
   "version": "1.0.1",
   "description": "Yeoman generator from Lost My Name themes and projects",
   "license": "MIT",
